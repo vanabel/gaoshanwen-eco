@@ -1,0 +1,1215 @@
+{
+  "annual": [
+    {
+      "year": 2012,
+      "kind": "annual",
+      "title": "2012年度经济观察报告",
+      "period": "2012年全年",
+      "published": "2013-02-22",
+      "fetchedAt": "2026-10-25T21:32:36.556Z",
+      "source": "https://www.stats.gov.cn/sj/tjgb/ndtjgb/qgndtjgb/202302/t20230206_1901956.html",
+      "sourceTitle": "中华人民共和国2012年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 7.8,
+          "basis": "全年实际同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 14.3,
+          "basis": "全年名义同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2012年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2.6,
+          "basis": "全年同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 16.2,
+          "basis": "全年同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 1.8,
+          "basis": "全年同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 10,
+          "basis": "全年实际同比",
+          "period": "2012年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": null,
+          "basis": "全年实际同比",
+          "period": "2012年全年",
+          "missingReason": "该公报未列同口径全国居民实际同比；城乡分组指标不替代全国指标。"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": null,
+          "basis": "全年实际同比",
+          "period": "2012年全年",
+          "missingReason": "该公报未列同口径全国居民实际同比；城乡分组指标不替代全国指标。"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "kind": "annual",
+      "title": "2013年度经济观察报告",
+      "period": "2013年全年",
+      "published": "2014-02-24",
+      "fetchedAt": "2026-10-25T21:32:36.566Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html",
+      "sourceTitle": "中华人民共和国2013年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 7.7,
+          "basis": "全年实际同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 13.1,
+          "basis": "全年名义同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2013年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2.6,
+          "basis": "全年同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 19.8,
+          "basis": "全年同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 17.3,
+          "basis": "全年同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 9.7,
+          "basis": "全年实际同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 8.1,
+          "basis": "全年实际同比",
+          "period": "2013年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": null,
+          "basis": "全年实际同比",
+          "period": "2013年全年",
+          "missingReason": "该公报未列同口径全国居民实际同比；城乡分组指标不替代全国指标。"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "kind": "annual",
+      "title": "2014年度经济观察报告",
+      "period": "2014年全年",
+      "published": "2015-02-26",
+      "fetchedAt": "2026-10-25T21:32:36.574Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898704.html",
+      "sourceTitle": "中华人民共和国2014年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 7.4,
+          "basis": "全年实际同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 12,
+          "basis": "全年名义同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2014年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2,
+          "basis": "全年同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 10.5,
+          "basis": "全年同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": -7.6,
+          "basis": "全年同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 8.3,
+          "basis": "全年实际同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 8,
+          "basis": "全年实际同比",
+          "period": "2014年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 7.5,
+          "basis": "全年实际同比",
+          "period": "2014年全年"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "kind": "annual",
+      "title": "2015年度经济观察报告",
+      "period": "2015年全年",
+      "published": "2016-02-29",
+      "fetchedAt": "2026-10-25T21:32:36.583Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899041.html",
+      "sourceTitle": "中华人民共和国2015年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 6.9,
+          "basis": "全年实际同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 10.7,
+          "basis": "全年名义同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2015年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 1.4,
+          "basis": "全年同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 1,
+          "basis": "全年同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 6.5,
+          "basis": "全年同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 6.1,
+          "basis": "全年实际同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 7.4,
+          "basis": "全年实际同比",
+          "period": "2015年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 6.9,
+          "basis": "全年实际同比",
+          "period": "2015年全年"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "kind": "annual",
+      "title": "2016年度经济观察报告",
+      "period": "2016年全年",
+      "published": "2017-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.591Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "sourceTitle": "中华人民共和国2016年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 6.7,
+          "basis": "全年实际同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 10.4,
+          "basis": "全年名义同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2016年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2,
+          "basis": "全年同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 6.9,
+          "basis": "全年同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 22.5,
+          "basis": "全年同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 6,
+          "basis": "全年实际同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 6.3,
+          "basis": "全年实际同比",
+          "period": "2016年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 6.8,
+          "basis": "全年实际同比",
+          "period": "2016年全年"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "kind": "annual",
+      "title": "2017年度经济观察报告",
+      "period": "2017年全年",
+      "published": "2018-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.599Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "sourceTitle": "中华人民共和国2017年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 6.9,
+          "basis": "全年实际同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 10.2,
+          "basis": "全年名义同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2017年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 1.6,
+          "basis": "全年同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 7,
+          "basis": "全年同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 7.7,
+          "basis": "全年同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 6.6,
+          "basis": "全年实际同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 7.3,
+          "basis": "全年实际同比",
+          "period": "2017年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 5.4,
+          "basis": "全年实际同比",
+          "period": "2017年全年"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "kind": "annual",
+      "title": "2018年度经济观察报告",
+      "period": "2018年全年",
+      "published": "2019-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.608Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "sourceTitle": "中华人民共和国2018年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 6.6,
+          "basis": "全年实际同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 9,
+          "basis": "全年名义同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2018年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2.1,
+          "basis": "全年同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 9.5,
+          "basis": "全年同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 1.3,
+          "basis": "全年同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 6.2,
+          "basis": "全年实际同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 6.5,
+          "basis": "全年实际同比",
+          "period": "2018年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 6.2,
+          "basis": "全年实际同比",
+          "period": "2018年全年"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "kind": "annual",
+      "title": "2019年度经济观察报告",
+      "period": "2019年全年",
+      "published": "2020-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.617Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "sourceTitle": "中华人民共和国2019年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 6.1,
+          "basis": "全年实际同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 8,
+          "basis": "全年名义同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2019年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2.9,
+          "basis": "全年同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 9.9,
+          "basis": "全年同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": -0.1,
+          "basis": "全年同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 5.7,
+          "basis": "全年实际同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 5.8,
+          "basis": "全年实际同比",
+          "period": "2019年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 5.5,
+          "basis": "全年实际同比",
+          "period": "2019年全年"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "kind": "annual",
+      "title": "2020年度经济观察报告",
+      "period": "2020年全年",
+      "published": "2021-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.626Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "sourceTitle": "中华人民共和国2020年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 2.3,
+          "basis": "全年实际同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": -3.9,
+          "basis": "全年名义同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": null,
+          "basis": "全年平均值",
+          "period": "2020年全年",
+          "missingReason": "该公报未列全国城镇调查失业率全年平均值；登记失业率和年末调查值不替代全年均值。"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2.5,
+          "basis": "全年同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 7,
+          "basis": "全年同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 2.6,
+          "basis": "全年同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 2.8,
+          "basis": "全年实际同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 2.1,
+          "basis": "全年实际同比",
+          "period": "2020年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": -4,
+          "basis": "全年实际同比",
+          "period": "2020年全年"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "kind": "annual",
+      "title": "2021年度经济观察报告",
+      "period": "2021年全年",
+      "published": "2022-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.634Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901393.html",
+      "sourceTitle": "中华人民共和国2021年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。",
+        "2021年含低基数影响；本页列一年同比，不以两年平均增速替代。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 8.1,
+          "basis": "全年实际同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 12.5,
+          "basis": "全年名义同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": 5.1,
+          "basis": "全年平均值",
+          "period": "2021年全年"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 0.9,
+          "basis": "全年同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": 4.4,
+          "basis": "全年同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": 1.9,
+          "basis": "全年同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 9.6,
+          "basis": "全年实际同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 8.1,
+          "basis": "全年实际同比",
+          "period": "2021年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 12.6,
+          "basis": "全年实际同比",
+          "period": "2021年全年"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "kind": "annual",
+      "title": "2022年度经济观察报告",
+      "period": "2022年全年",
+      "published": "2023-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.645Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202302/t20230228_1919011.html",
+      "sourceTitle": "中华人民共和国2022年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 3,
+          "basis": "全年实际同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": -0.2,
+          "basis": "全年名义同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": 5.6,
+          "basis": "全年平均值",
+          "period": "2022年全年"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 2,
+          "basis": "全年同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": -10,
+          "basis": "全年同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "sales",
+          "label": "商品房销售面积",
+          "value": -24.3,
+          "basis": "全年同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 3.6,
+          "basis": "全年实际同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 2.9,
+          "basis": "全年实际同比",
+          "period": "2022年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": -0.2,
+          "basis": "全年实际同比",
+          "period": "2022年全年"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "kind": "annual",
+      "title": "2023年度经济观察报告",
+      "period": "2023年全年",
+      "published": "2024-02-29",
+      "fetchedAt": "2026-10-25T21:32:36.652Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html",
+      "sourceTitle": "中华人民共和国2023年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 5.2,
+          "basis": "全年实际同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 7.2,
+          "basis": "全年名义同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": 5.2,
+          "basis": "全年平均值",
+          "period": "2023年全年"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 0.2,
+          "basis": "全年同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": -9.6,
+          "basis": "全年同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "sales",
+          "label": "新建商品房销售面积",
+          "value": -8.5,
+          "basis": "全年同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 4.6,
+          "basis": "全年实际同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 6.1,
+          "basis": "全年实际同比",
+          "period": "2023年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 9,
+          "basis": "全年实际同比",
+          "period": "2023年全年"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "kind": "annual",
+      "title": "2024年度经济观察报告",
+      "period": "2024年全年",
+      "published": "2025-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.659Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202502/t20250228_1958817.html",
+      "sourceTitle": "中华人民共和国2024年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 5,
+          "basis": "全年实际同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 3.5,
+          "basis": "全年名义同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": 5.1,
+          "basis": "全年平均值",
+          "period": "2024年全年"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 0.2,
+          "basis": "全年同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": -10.6,
+          "basis": "全年同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "sales",
+          "label": "新建商品房销售面积",
+          "value": -12.9,
+          "basis": "全年同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 5.8,
+          "basis": "全年实际同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 5.1,
+          "basis": "全年实际同比",
+          "period": "2024年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 5.1,
+          "basis": "全年实际同比",
+          "period": "2024年全年"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "kind": "annual",
+      "title": "2025年度经济观察报告",
+      "period": "2025年全年",
+      "published": "2026-02-28",
+      "fetchedAt": "2026-10-25T21:32:36.665Z",
+      "source": "https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html",
+      "sourceTitle": "中华人民共和国2025年国民经济和社会发展统计公报",
+      "notes": [
+        "采用各年公报发布时公布值，不是统一修订后的历史数据库；保留正文署期，网站迁移日期不作为原始发布日期。",
+        "调查失业率全年均值缺失时留空，不用登记失业率或年末值拼接。",
+        "全国居民收支系列有住户调查口径变化；商品房统计名称及企业样本范围也有变化，长周期对照仅描述各年公布值。"
+      ],
+      "metrics": [
+        {
+          "id": "gdp",
+          "label": "实际 GDP",
+          "value": 5,
+          "basis": "全年实际同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "retail",
+          "label": "社会消费品零售",
+          "value": 3.7,
+          "basis": "全年名义同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "unemployment",
+          "label": "城镇调查失业率",
+          "value": 5.2,
+          "basis": "全年平均值",
+          "period": "2025年全年"
+        },
+        {
+          "id": "cpi",
+          "label": "居民消费价格 CPI",
+          "value": 0,
+          "basis": "全年同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "property",
+          "label": "房地产开发投资",
+          "value": -17.2,
+          "basis": "全年同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "sales",
+          "label": "新建商品房销售面积",
+          "value": -8.7,
+          "basis": "全年同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "industry",
+          "label": "规模以上工业增加值",
+          "value": 5.9,
+          "basis": "全年实际同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "income",
+          "label": "居民人均可支配收入",
+          "value": 5,
+          "basis": "全年实际同比",
+          "period": "2025年全年"
+        },
+        {
+          "id": "spending",
+          "label": "居民人均消费支出",
+          "value": 4.4,
+          "basis": "全年实际同比",
+          "period": "2025年全年"
+        }
+      ]
+    }
+  ],
+  "latest": {
+    "source": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html",
+    "published": "2026-10-19",
+    "fetchedAt": "2026-10-25T21:18:27.257Z",
+    "metrics": [
+      {
+        "id": "retail",
+        "label": "社会消费品零售",
+        "value": 1.1,
+        "period": "2026年9月",
+        "basis": "当月同比"
+      },
+      {
+        "id": "unemployment",
+        "label": "城镇调查失业率",
+        "value": 5.2,
+        "period": "2026年9月",
+        "basis": "当月水平"
+      },
+      {
+        "id": "core",
+        "label": "核心 CPI",
+        "value": 1,
+        "period": "2026年9月",
+        "basis": "当月同比"
+      },
+      {
+        "id": "property",
+        "label": "房地产开发投资",
+        "value": -20.6,
+        "period": "2026年前三季度",
+        "basis": "累计同比"
+      },
+      {
+        "id": "sales",
+        "label": "新建商品房销售面积",
+        "value": -13.2,
+        "period": "2026年前三季度",
+        "basis": "累计同比"
+      },
+      {
+        "id": "pmi",
+        "label": "制造业 PMI",
+        "value": 50.1,
+        "period": "2026年9月",
+        "basis": "当月指数 · 50为荣枯线"
+      },
+      {
+        "id": "industry",
+        "label": "规模以上工业增加值",
+        "value": 5.5,
+        "period": "2026年9月",
+        "basis": "当月实际同比"
+      },
+      {
+        "id": "gdp",
+        "label": "实际 GDP",
+        "value": 4.6,
+        "period": "2026年前三季度",
+        "basis": "累计实际同比"
+      }
+    ],
+    "quarters": [
+      {
+        "label": "2026 Q1",
+        "value": 5
+      },
+      {
+        "label": "2026 Q2",
+        "value": 4.3
+      },
+      {
+        "label": "2026 Q3",
+        "value": 4.5
+      }
+    ],
+    "updatePolicy": "On request, cached 30 minutes; browser checks every 30 minutes"
+  }
+}

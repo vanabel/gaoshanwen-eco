@@ -1,0 +1,25 @@
+{
+  "name": "economy-observatory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/compile.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "install": "node scripts/nas-manage.mjs install",
+    "update": "node scripts/nas-manage.mjs update",
+    "start": "node server/index.mjs",
+    "refresh": "node scripts/nas-manage.mjs refresh",
+    "pm2:start": "pm2 start ecosystem.config.cjs --only economy-observatory",
+    "pm2:restart": "pm2 restart economy-observatory --update-env",
+    "pm2:stop": "pm2 stop economy-observatory",
+    "pm2:logs": "pm2 logs economy-observatory --lines 80",
+    "test:node": "node scripts/test-node.mjs"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "pm2": "6.0.14"
+  }
+}

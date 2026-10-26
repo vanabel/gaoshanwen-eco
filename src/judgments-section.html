@@ -1,0 +1,8 @@
+<section id="judgments" class="section">
+ <div class="sectionhead"><div><div class="eyebrow">JUDGMENTS THROUGH TIME / 判断与时间</div><h2>当时怎么看，后来怎样走。</h2><p class="fine">沿2012年以来的年度趋势，回到观点公开的那个时点。</p></div><a class="button" href="/api/judgments" download="gaoshanwen-judgments.json">↓ 观点与来源 JSON</a></div>
+ <div class="panel"><div class="judgment-tabs"><button id="judgment-mode-speech" class="active" aria-pressed="true">追踪2024年演讲</button><button id="judgment-mode-history" aria-pressed="false">各年当时的观点</button></div><p class="fine">观点固定保留当时的条件与时间范围，年度数据随现有公报更新。下面的指标关联与复盘说明由本站整理；不自动打“预测正确率”，也不把相关性当作因果证明。</p>
+ <div class="judgment-layout"><aside><label id="judgment-select-label" for="judgment-select">选择一项判断</label><select id="judgment-select" style="width:100%"></select><div id="judgment-year-strip" class="judgment-years"></div><p id="judgment-coverage" class="fine"></p></aside><article id="judgment-detail" aria-live="polite"></article></div>
+ <div class="sectionhead" style="margin-top:28px"><div><h3 id="judgment-trend-title">沿年度数据追踪</h3><p id="judgment-trend-note" class="fine"></p></div><select id="judgment-metric" aria-label="关联趋势指标"></select></div><div id="judgment-trend" class="judgment-chart"></div><p id="judgment-observation" class="judgment-observation"></p>
+ <details><summary>逐年数据、与判断的时间关系及来源</summary><div class="table-wrap"><table><thead><tr><th>年份</th><th>指标公布值</th><th>与判断的时间关系</th><th>统计口径 / 来源</th></tr></thead><tbody id="judgment-trend-table"></tbody></table></div></details>
+ </div>
+</section>

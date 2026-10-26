@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-26",
+  "coverage": "公开资料选集；非逐年全部演讲目录，未收录不等于没有观点",
+  "speechSource": {
+    "title": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+    "url": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+    "publishedAt": "2025-05-17",
+    "spokenAt": "2024-12-03"
+  },
+  "records": [
+    {
+      "id": "view-2012",
+      "publishedAt": "2012-04-16",
+      "spokenAt": "2012-04-15",
+      "title": "短期环比可能修复，一年内仍谨慎",
+      "summary": "他认为融资体系修复可支撑二季度环比回升，但房地产库存与资金约束仍在，对未来一年的增长保持保守。",
+      "horizon": "二季度环比及未来一年",
+      "condition": "短期资金缓解不等于货币政策已明显放松。",
+      "limit": "当前图为年度实际同比，无法检验二季度环比预测；需要当时版本的季调季度序列。",
+      "metrics": [
+        "gdp",
+        "property"
+      ],
+      "source": "https://news.cntv.cn/20120416/121619.shtml",
+      "sourceTitle": "中国证券报报道（央视网转载）",
+      "sourceType": "同期媒体报道",
+      "locator": "正文“经济状况短多长空”",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2014",
+      "publishedAt": "2014-12-18",
+      "spokenAt": "2014-12-16",
+      "title": "供给收缩改善盈利，A股牛熊格局可能转变",
+      "summary": "他以供给调整与企业利润率改善解释股市转强，并认为地产对经济的拖累可能在2015年二季度耗尽。",
+      "horizon": "2015年及更长的市场周期",
+      "condition": "仍须防范总需求意外走弱，以及监管变化带来的资金冲击。",
+      "limit": "年度地产投资不能定位二季度拐点；检验牛市持续时间还需指数、回撤和盈利序列。",
+      "metrics": [
+        "property",
+        "gdp"
+      ],
+      "source": "https://www.aisixiang.com/data/81507.html",
+      "sourceTitle": "《2015股市楼市走势究竟会怎样》（万得演讲实录转载）",
+      "sourceType": "演讲实录转载",
+      "locator": "正文房地产成交与投资关系、风险提示部分",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2015",
+      "publishedAt": "2015-06-29",
+      "spokenAt": "2015-06-25",
+      "title": "认为年底前博弈行情的宏观条件未根本改变",
+      "summary": "他判断市场驱动已由基本面转向资金与筹码博弈，预计年底前相关条件未根本改变；同时预期财政冲击在年底前后逐渐被吸收。",
+      "horizon": "2015年底至2016年初",
+      "condition": "经济恢复、红筹回归和注册制推进，可能改变后续市场环境。",
+      "limit": "保留这一带有乐观时点的判断，不将其改写成事后风险预警；当前未接入可核验的指数日线，尚不能完成股市路径检验。",
+      "metrics": [
+        "gdp",
+        "retail"
+      ],
+      "source": "https://chinadigitaltimes.net/chinese/396696.html",
+      "sourceTitle": "《2015中期宏观经济讲演全文》（第三方留存）",
+      "sourceType": "第三方演讲听录转载",
+      "locator": "末尾总结第1、2点；演讲日参照作者财新博客索引",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2016",
+      "publishedAt": "2016-02-02",
+      "spokenAt": "2016-01-20",
+      "title": "年初预判出口、房地产仍有收缩压力",
+      "summary": "在回顾2015年内外冲击时，他对2016年出口、房地产的展望仍偏弱，预计预算内财政更积极但增量有限。",
+      "horizon": "2016年",
+      "condition": "财政支出、地方融资与外部需求共同影响走势。",
+      "limit": "当前销售面积与开发投资只覆盖地产部分；若年内结果相反也应保留。未接入出口与财政原口径，不把这两个判断判为已验证。",
+      "metrics": [
+        "property",
+        "sales",
+        "gdp"
+      ],
+      "source": "https://www.saif.sjtu.edu.cn/show-236-56.html",
+      "sourceTitle": "上海高级金融学院：2016中国经济分析展望会观点摘要",
+      "sourceType": "主办方活动摘要",
+      "locator": "正文“在活动现场”与“观点精粹”",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2017",
+      "publishedAt": "2017-12-26",
+      "spokenAt": null,
+      "title": "三大拖累减轻，对随后两年更乐观",
+      "summary": "他认为出口、地产库存与过剩产能的拖累正减轻，预期补库存支持后续经济，判断2018—2019年名义GDP增速有望保持9%或以上。",
+      "horizon": "2018—2019年",
+      "condition": "依赖全球复苏与地产、产能去化的延续。",
+      "limit": "报道提出的是名义GDP展望，当前曲线为实际GDP；不能用它直接判定数值预测命中。全国销售增速也不能替代库存去化指标。",
+      "metrics": [
+        "property",
+        "sales",
+        "gdp"
+      ],
+      "source": "https://www.yicai.com/news/5386662.html",
+      "sourceTitle": "第一财经：三大经济拖累因素正消除",
+      "sourceType": "同期媒体报道",
+      "locator": "首段名义GDP展望与正文三项拖累分析",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2018",
+      "publishedAt": "2018-06-21",
+      "spokenAt": null,
+      "title": "贸易摩擦可能长期化，需防全球化碎片化",
+      "summary": "他把中美贸易纷争视为可能延续多年的竞争，提示投资、技术和人才往来分离的风险，主张维护多边规则并扩大开放。",
+      "horizon": "多年",
+      "condition": "双方能否形成妥协和制度安排，影响风险是否兑现。",
+      "limit": "这不是某年的GDP点预测。需要关税、双向投资和贸易结构数据；当前GDP仅作背景，不能验证贸易冲突的因果影响。",
+      "metrics": [
+        "gdp",
+        "industry"
+      ],
+      "source": "https://pfile.essence.com.cn/data/00/33/CgcKWFsrLySAErTNAAdnmTYiKv4430.pdf",
+      "sourceTitle": "安信证券宏观研究《中美贸易战的走向》",
+      "sourceType": "原机构研究报告",
+      "locator": "第1—3页；报告基于4月11日演讲并进一步更新",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2019",
+      "publishedAt": "2019-12-08",
+      "spokenAt": null,
+      "title": "转型中的减速尚未结束",
+      "summary": "在《知止不殆》中，他预期中长期增长中枢继续下移，并提示2020年仍有地产投资减速、去产能提振消退等压力。",
+      "horizon": "2020年及其后数年",
+      "condition": "资源配置改善和新产业机会可形成结构性支撑。",
+      "limit": "资料为正式书面报告的第三方存档，不把演讲日期与报告日期混同。2020年后疫情是额外冲击，单年增速不足以识别长期潜在增长。",
+      "metrics": [
+        "gdp",
+        "property",
+        "industry"
+      ],
+      "source": "https://www.gaoshanwen.com/articles/analysis-2019-12-08-1c9smie",
+      "sourceTitle": "《知止不殆》2019-12-08书面报告存档",
+      "sourceType": "第三方研究报告存档",
+      "locator": "内容提要及“一、中国经济转型的国际比较”",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2020",
+      "publishedAt": "2020-03-18",
+      "spokenAt": "2020-03-15",
+      "title": "疫情冲击主要体现为需求骤降",
+      "summary": "他认为疫情初期多数行业承受的主要是需求冲击，供给恢复相对更快，消费与地产交易的大幅收缩需重点观察。",
+      "horizon": "疫情冲击与恢复阶段",
+      "condition": "少数行业仍可能存在供应短缺，恢复路径受疫情发展制约。",
+      "limit": "全年社零能展示需求表现，不能独立识别供需冲击份额；2021年的高同比受2020低基数影响。",
+      "metrics": [
+        "retail",
+        "spending",
+        "gdp"
+      ],
+      "source": "https://www.yicai.com/news/100553628.html",
+      "sourceTitle": "高善文署名《新冠疫情下的全球金融动荡》",
+      "sourceType": "作者署名演讲整理稿（媒体刊载）",
+      "locator": "“中国经济情况的评估和展望”",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2021",
+      "publishedAt": "2021-11-18",
+      "spokenAt": null,
+      "title": "能源转型需保留传统供给缓冲",
+      "summary": "他提出新能源替代过程中应保留传统能源产能冗余，并为能耗调节保留弹性，以降低供给波动的经济成本。",
+      "horizon": "能源转型的中长期",
+      "condition": "大规模低成本储能尚未广泛应用时，备用产能尤为重要。",
+      "limit": "这是供给与政策设计判断，当前工业和CPI只是背景；没有能源结构、缺电与煤价序列，不能完成直接检验。",
+      "metrics": [
+        "industry",
+        "cpi"
+      ],
+      "source": "https://finance.sina.com.cn/money/bank/bank_hydt/2021-11-19/doc-iktzscyy6478356.shtml",
+      "sourceTitle": "高善文署名《能源短缺与碳达峰》",
+      "sourceType": "作者署名演讲整理稿（CF40转载）",
+      "locator": "提要；页面正文发布时间为11月18日，URL日期不作发表日期",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2022",
+      "publishedAt": "2022-06-28",
+      "spokenAt": "2022-06-28",
+      "title": "仍看估值修复，中长期增长依赖制度补短板",
+      "summary": "他认为4月底后的估值修复尚在延续；对2035年前提出增长可能在4.5%附近或略高的情景，同时强调制度改善与汇率等条件。",
+      "horizon": "当时市场修复及2035年前",
+      "condition": "长期增长情景包含汇率、生产率和制度改善等条件。",
+      "limit": "短期反弹判断与长期增长情景必须分开。当前无指数日线，不能检验反弹时点；2035年尚未到达，不提前判定长期结论。",
+      "metrics": [
+        "gdp",
+        "industry"
+      ],
+      "source": "https://fund.eastmoney.com/a/202206282427744346.html",
+      "sourceTitle": "中国基金报：2022中期策略会《吹尽狂沙始到金》实录（东方财富转载）",
+      "sourceType": "同期媒体演讲整理",
+      "locator": "开篇及重要观点第1—5项",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2023",
+      "publishedAt": "2023-08-23",
+      "spokenAt": null,
+      "title": "疤痕效应与地产流动性压力相互强化",
+      "summary": "他用疫情疤痕和地产融资压力的交互解释经济困难，判断地产可能已明显超调、会发生均值回归，但时间不确定。",
+      "horizon": "修复过程；未给确定完成日",
+      "condition": "房企流动性与居民资产负债表状况会影响修复。",
+      "limit": "保留“时间不确定”的限定。全国开发投资、销售面积不能替代城市房价估值或房企现金流。",
+      "metrics": [
+        "property",
+        "sales",
+        "spending"
+      ],
+      "source": "https://finance.sina.com.cn/zl/china/2023-08-23/zl-imziefaf8861665.shtml",
+      "sourceTitle": "高善文署名《关于当前资本市场的一些思考》",
+      "sourceType": "作者署名文章（CF40专栏）",
+      "locator": "开篇观点摘要与正文疤痕效应分析",
+      "checkedAt": "2026-10-26",
+      "isQuote": false
+    },
+    {
+      "id": "view-2024",
+      "publishedAt": "2024-12-03",
+      "spokenAt": "2024-12-03",
+      "title": "从周期收缩转向后泡沫的较弱增长",
+      "summary": "他认为周期压力重于转型代价，2025年可能逐步转向较弱但可维持的增长，前提包括继续政策干预。",
+      "horizon": "2025年及其后数年",
+      "condition": "并非预测恢复此前高速增长；需要时间消化调整与政策支持。",
+      "limit": "下方拆为六条判断逐年跟踪。全文来源为第三方听打稿，2025年转载时间不当作新的演讲日期。",
+      "metrics": [
+        "gdp",
+        "retail",
+        "property",
+        "sales",
+        "unemployment"
+      ],
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "《云开雾散曙光现》2024-12-03演讲听打稿",
+      "sourceType": "第三方听打稿（2025-05-17发布）",
+      "locator": "开篇结论及结尾2025年展望；日期与原幻灯片、路演记录交叉核对",
+      "checkedAt": "2026-10-26",
+      "isQuote": false,
+      "sourcePublishedAt": "2025-05-17"
+    }
+  ],
+  "theses": [
+    {
+      "id": "cycle",
+      "title": "周期压力重于转型代价",
+      "summary": "他认为转型已有进展，但近期疲弱主要有周期性成因。",
+      "watch": "消费、工业与地产是否一起持续改善",
+      "limit": "全国宏观指标仅作辅助；产业分类的因果识别仍需原公司底表。",
+      "metrics": [
+        "retail",
+        "spending",
+        "industry",
+        "property"
+      ],
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "horizon": "2021年以来的诊断及后续修复",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    },
+    {
+      "id": "consumption",
+      "title": "消费疲弱与收入预期受损",
+      "summary": "他把消费疲弱与就业、收入预期联系起来。",
+      "watch": "社零名义增速与居民消费实际增速分别变化",
+      "limit": "两项口径不同，不相减排名；年龄和房价回归不能用全国序列替代。",
+      "metrics": [
+        "retail",
+        "spending",
+        "income"
+      ],
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "horizon": "疫情后需求修复",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    },
+    {
+      "id": "employment",
+      "title": "就业人数比失业率提供更多线索",
+      "summary": "他认为失业率不足以反映就业与参与率的压力。",
+      "watch": "调查失业率仅作交叉观察，并回看就业人数图",
+      "limit": "比率下降不等于人数恢复；原稿4709万是年度存量缺口之和，不能当去重失业人数。",
+      "metrics": [
+        "unemployment",
+        "income"
+      ],
+      "pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "horizon": "2021年以来的就业变化",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    },
+    {
+      "id": "statistics",
+      "title": "增长统计与价格、就业需交叉核对",
+      "summary": "他据就业、价格等关系推测，疫情后经济增速可能被高估约3个百分点。",
+      "watch": "GDP实际增长、CPI及就业的并行变化",
+      "limit": "不能用CPI替代核心CPI，也不自动将GDP减3个百分点；需识别潜在增速与模型误差。",
+      "metrics": [
+        "gdp",
+        "cpi",
+        "unemployment"
+      ],
+      "pages": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "horizon": "疫情后的统计解释",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    },
+    {
+      "id": "turning",
+      "title": "2025年可能转向较弱但稳定的增长",
+      "summary": "他对2025年的转折判断有政策支持与调整消化的前提。",
+      "watch": "2025年之后消费、就业、地产能否持续交叉印证",
+      "limit": "未给统一数值门槛；一年GDP达标或股市上涨都不足以证明转折完成。",
+      "metrics": [
+        "gdp",
+        "retail",
+        "spending",
+        "unemployment",
+        "property",
+        "sales"
+      ],
+      "pages": [
+        28,
+        29
+      ],
+      "horizon": "2025年及之后；长期恢复尚需等待",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    },
+    {
+      "id": "property",
+      "title": "地产冲击的修复需要时间与干预",
+      "summary": "他以国际经验区分约3—4年的稳定化与8—9年的较完整修复，推测中国或到2030年前后更正常。",
+      "watch": "地产投资、销售与国际事件路径分别观察",
+      "limit": "国际均值不是中国倒计时；原稿估计保持冻结，当前WDI修订另列复算。",
+      "metrics": [
+        "property",
+        "sales",
+        "gdp"
+      ],
+      "pages": [
+        28,
+        29
+      ],
+      "horizon": "2025年的稳定化与约2030年的较长期修复分别观察",
+      "date": "2024-12-03",
+      "source": "https://www.jenniferzengblog.com/home/2025/5/17/gdp3",
+      "sourceTitle": "2024-12-03演讲第三方听打稿（2025-05-17刊载）",
+      "sourceType": "第三方听打稿与原幻灯片交叉阅读",
+      "condition": "保留当时估计及研究假设，不把后来公布值倒填原演讲。"
+    }
+  ]
+}

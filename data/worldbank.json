@@ -1,0 +1,2038 @@
+{
+  "source": "https://api.worldbank.org/v2/country/USA;ESP;DNK;JPN;FIN;SWE;CHN/indicator/NY.GDP.MKTP.KD.ZG?format=json&per_page=20000&date=1968:2025",
+  "indicator": "NY.GDP.MKTP.KD.ZG",
+  "lastUpdated": "2026-10-08",
+  "retrievedAt": "2026-10-25T21:50:56.569Z",
+  "observations": [
+    {
+      "country": "CHN",
+      "year": 2025,
+      "value": 4.95994886240992
+    },
+    {
+      "country": "CHN",
+      "year": 2024,
+      "value": 4.95830378788091
+    },
+    {
+      "country": "CHN",
+      "year": 2023,
+      "value": 5.41600334492955
+    },
+    {
+      "country": "CHN",
+      "year": 2022,
+      "value": 3.13385438394069
+    },
+    {
+      "country": "CHN",
+      "year": 2021,
+      "value": 8.57038414981781
+    },
+    {
+      "country": "CHN",
+      "year": 2020,
+      "value": 2.33950385203023
+    },
+    {
+      "country": "CHN",
+      "year": 2019,
+      "value": 6.06737806333672
+    },
+    {
+      "country": "CHN",
+      "year": 2018,
+      "value": 6.757806142324
+    },
+    {
+      "country": "CHN",
+      "year": 2017,
+      "value": 6.89123916636191
+    },
+    {
+      "country": "CHN",
+      "year": 2016,
+      "value": 6.7736886867727
+    },
+    {
+      "country": "CHN",
+      "year": 2015,
+      "value": 6.98162255562367
+    },
+    {
+      "country": "CHN",
+      "year": 2014,
+      "value": 7.46100735778161
+    },
+    {
+      "country": "CHN",
+      "year": 2013,
+      "value": 7.77842954757257
+    },
+    {
+      "country": "CHN",
+      "year": 2012,
+      "value": 7.8578201481217
+    },
+    {
+      "country": "CHN",
+      "year": 2011,
+      "value": 9.46205248298186
+    },
+    {
+      "country": "CHN",
+      "year": 2010,
+      "value": 10.5916903885704
+    },
+    {
+      "country": "CHN",
+      "year": 2009,
+      "value": 9.40610014336416
+    },
+    {
+      "country": "CHN",
+      "year": 2008,
+      "value": 9.66877608164454
+    },
+    {
+      "country": "CHN",
+      "year": 2007,
+      "value": 14.1507710506103
+    },
+    {
+      "country": "CHN",
+      "year": 2006,
+      "value": 12.6752842281595
+    },
+    {
+      "country": "CHN",
+      "year": 2005,
+      "value": 11.4535130030645
+    },
+    {
+      "country": "CHN",
+      "year": 2004,
+      "value": 10.1404291872206
+    },
+    {
+      "country": "CHN",
+      "year": 2003,
+      "value": 10.1138119025242
+    },
+    {
+      "country": "CHN",
+      "year": 2002,
+      "value": 9.23604870383861
+    },
+    {
+      "country": "CHN",
+      "year": 2001,
+      "value": 8.32404695347056
+    },
+    {
+      "country": "CHN",
+      "year": 2000,
+      "value": 8.57357328926101
+    },
+    {
+      "country": "CHN",
+      "year": 1999,
+      "value": 7.74123827728161
+    },
+    {
+      "country": "CHN",
+      "year": 1998,
+      "value": 7.92354535108497
+    },
+    {
+      "country": "CHN",
+      "year": 1997,
+      "value": 9.29759460595947
+    },
+    {
+      "country": "CHN",
+      "year": 1996,
+      "value": 9.97328781228394
+    },
+    {
+      "country": "CHN",
+      "year": 1995,
+      "value": 11.0154136659719
+    },
+    {
+      "country": "CHN",
+      "year": 1994,
+      "value": 13.0827122987906
+    },
+    {
+      "country": "CHN",
+      "year": 1993,
+      "value": 13.9261028311995
+    },
+    {
+      "country": "CHN",
+      "year": 1992,
+      "value": 14.2976226152779
+    },
+    {
+      "country": "CHN",
+      "year": 1991,
+      "value": 9.37563237902144
+    },
+    {
+      "country": "CHN",
+      "year": 1990,
+      "value": 3.9225195692421
+    },
+    {
+      "country": "CHN",
+      "year": 1989,
+      "value": 4.20785693658392
+    },
+    {
+      "country": "CHN",
+      "year": 1988,
+      "value": 11.2209115803492
+    },
+    {
+      "country": "CHN",
+      "year": 1987,
+      "value": 11.6552658383921
+    },
+    {
+      "country": "CHN",
+      "year": 1986,
+      "value": 8.9437463904392
+    },
+    {
+      "country": "CHN",
+      "year": 1985,
+      "value": 13.4284820016509
+    },
+    {
+      "country": "CHN",
+      "year": 1984,
+      "value": 15.1921349118079
+    },
+    {
+      "country": "CHN",
+      "year": 1983,
+      "value": 10.7718383060041
+    },
+    {
+      "country": "CHN",
+      "year": 1982,
+      "value": 9.02434347373044
+    },
+    {
+      "country": "CHN",
+      "year": 1981,
+      "value": 5.11486309071954
+    },
+    {
+      "country": "CHN",
+      "year": 1980,
+      "value": 7.84141706847441
+    },
+    {
+      "country": "CHN",
+      "year": 1979,
+      "value": 7.59480175999998
+    },
+    {
+      "country": "CHN",
+      "year": 1978,
+      "value": 11.3269542129809
+    },
+    {
+      "country": "CHN",
+      "year": 1977,
+      "value": 7.57000000138403
+    },
+    {
+      "country": "CHN",
+      "year": 1976,
+      "value": -1.57000000165326
+    },
+    {
+      "country": "CHN",
+      "year": 1975,
+      "value": 8.71999999747992
+    },
+    {
+      "country": "CHN",
+      "year": 1974,
+      "value": 2.31000000294736
+    },
+    {
+      "country": "CHN",
+      "year": 1973,
+      "value": 7.76000000084325
+    },
+    {
+      "country": "CHN",
+      "year": 1972,
+      "value": 3.81000000021984
+    },
+    {
+      "country": "CHN",
+      "year": 1971,
+      "value": 7.05999999853672
+    },
+    {
+      "country": "CHN",
+      "year": 1970,
+      "value": 19.2999999967022
+    },
+    {
+      "country": "CHN",
+      "year": 1969,
+      "value": 16.9399999960609
+    },
+    {
+      "country": "CHN",
+      "year": 1968,
+      "value": -4.09999998647768
+    },
+    {
+      "country": "DNK",
+      "year": 2025,
+      "value": 2.92843280014236
+    },
+    {
+      "country": "DNK",
+      "year": 2024,
+      "value": 3.47783593140312
+    },
+    {
+      "country": "DNK",
+      "year": 2023,
+      "value": 0.604587766175584
+    },
+    {
+      "country": "DNK",
+      "year": 2022,
+      "value": 0.443832614908331
+    },
+    {
+      "country": "DNK",
+      "year": 2021,
+      "value": 6.50025445756295
+    },
+    {
+      "country": "DNK",
+      "year": 2020,
+      "value": -1.78010601831291
+    },
+    {
+      "country": "DNK",
+      "year": 2019,
+      "value": 1.71140093932736
+    },
+    {
+      "country": "DNK",
+      "year": 2018,
+      "value": 1.8600074900921
+    },
+    {
+      "country": "DNK",
+      "year": 2017,
+      "value": 3.05647723922718
+    },
+    {
+      "country": "DNK",
+      "year": 2016,
+      "value": 3.07304549209093
+    },
+    {
+      "country": "DNK",
+      "year": 2015,
+      "value": 2.10441456445301
+    },
+    {
+      "country": "DNK",
+      "year": 2014,
+      "value": 1.27799983192831
+    },
+    {
+      "country": "DNK",
+      "year": 2013,
+      "value": 1.39267343161971
+    },
+    {
+      "country": "DNK",
+      "year": 2012,
+      "value": -0.00543230161670749
+    },
+    {
+      "country": "DNK",
+      "year": 2011,
+      "value": 1.3108037609606
+    },
+    {
+      "country": "DNK",
+      "year": 2010,
+      "value": 1.58289703108802
+    },
+    {
+      "country": "DNK",
+      "year": 2009,
+      "value": -4.97447905669058
+    },
+    {
+      "country": "DNK",
+      "year": 2008,
+      "value": -0.417178439991005
+    },
+    {
+      "country": "DNK",
+      "year": 2007,
+      "value": 0.987173815945127
+    },
+    {
+      "country": "DNK",
+      "year": 2006,
+      "value": 3.81648769908172
+    },
+    {
+      "country": "DNK",
+      "year": 2005,
+      "value": 2.35960882992528
+    },
+    {
+      "country": "DNK",
+      "year": 2004,
+      "value": 2.77635180744053
+    },
+    {
+      "country": "DNK",
+      "year": 2003,
+      "value": 0.441091006625101
+    },
+    {
+      "country": "DNK",
+      "year": 2002,
+      "value": 0.456530018779986
+    },
+    {
+      "country": "DNK",
+      "year": 2001,
+      "value": 0.95003224600012
+    },
+    {
+      "country": "DNK",
+      "year": 2000,
+      "value": 3.72400899471576
+    },
+    {
+      "country": "DNK",
+      "year": 1999,
+      "value": 2.96730536257029
+    },
+    {
+      "country": "DNK",
+      "year": 1998,
+      "value": 2.32630274538961
+    },
+    {
+      "country": "DNK",
+      "year": 1997,
+      "value": 3.16848143784479
+    },
+    {
+      "country": "DNK",
+      "year": 1996,
+      "value": 2.89575069230459
+    },
+    {
+      "country": "DNK",
+      "year": 1995,
+      "value": 3.03802150461165
+    },
+    {
+      "country": "DNK",
+      "year": 1994,
+      "value": 5.29469615156448
+    },
+    {
+      "country": "DNK",
+      "year": 1993,
+      "value": -0.078900412805325
+    },
+    {
+      "country": "DNK",
+      "year": 1992,
+      "value": 2.0228112415746
+    },
+    {
+      "country": "DNK",
+      "year": 1991,
+      "value": 1.45818005306188
+    },
+    {
+      "country": "DNK",
+      "year": 1990,
+      "value": 1.66026774169177
+    },
+    {
+      "country": "DNK",
+      "year": 1989,
+      "value": 0.697173210370437
+    },
+    {
+      "country": "DNK",
+      "year": 1988,
+      "value": 0.272951118976223
+    },
+    {
+      "country": "DNK",
+      "year": 1987,
+      "value": 0.462955829960563
+    },
+    {
+      "country": "DNK",
+      "year": 1986,
+      "value": 4.73340611933794
+    },
+    {
+      "country": "DNK",
+      "year": 1985,
+      "value": 4.15308383294486
+    },
+    {
+      "country": "DNK",
+      "year": 1984,
+      "value": 4.33934505132922
+    },
+    {
+      "country": "DNK",
+      "year": 1983,
+      "value": 2.65480394401855
+    },
+    {
+      "country": "DNK",
+      "year": 1982,
+      "value": 3.89211245643591
+    },
+    {
+      "country": "DNK",
+      "year": 1981,
+      "value": -0.740986389012875
+    },
+    {
+      "country": "DNK",
+      "year": 1980,
+      "value": -0.751430002361559
+    },
+    {
+      "country": "DNK",
+      "year": 1979,
+      "value": 4.05329979126334
+    },
+    {
+      "country": "DNK",
+      "year": 1978,
+      "value": 2.41699354282181
+    },
+    {
+      "country": "DNK",
+      "year": 1977,
+      "value": 1.98543025474245
+    },
+    {
+      "country": "DNK",
+      "year": 1976,
+      "value": 5.99340195153275
+    },
+    {
+      "country": "DNK",
+      "year": 1975,
+      "value": -1.40989953291778
+    },
+    {
+      "country": "DNK",
+      "year": 1974,
+      "value": -0.964267384329801
+    },
+    {
+      "country": "DNK",
+      "year": 1973,
+      "value": 4.71949291132046
+    },
+    {
+      "country": "DNK",
+      "year": 1972,
+      "value": 3.79759816845579
+    },
+    {
+      "country": "DNK",
+      "year": 1971,
+      "value": 3.17782168196071
+    },
+    {
+      "country": "DNK",
+      "year": 1970,
+      "value": 1.85600172758038
+    },
+    {
+      "country": "DNK",
+      "year": 1969,
+      "value": 6.79912047392293
+    },
+    {
+      "country": "DNK",
+      "year": 1968,
+      "value": 5.85299737649714
+    },
+    {
+      "country": "ESP",
+      "year": 2025,
+      "value": 2.82495400578509
+    },
+    {
+      "country": "ESP",
+      "year": 2024,
+      "value": 3.45525405630191
+    },
+    {
+      "country": "ESP",
+      "year": 2023,
+      "value": 2.46085796805582
+    },
+    {
+      "country": "ESP",
+      "year": 2022,
+      "value": 6.37031712129601
+    },
+    {
+      "country": "ESP",
+      "year": 2021,
+      "value": 6.68314420473001
+    },
+    {
+      "country": "ESP",
+      "year": 2020,
+      "value": -10.9400706350371
+    },
+    {
+      "country": "ESP",
+      "year": 2019,
+      "value": 1.96117850841711
+    },
+    {
+      "country": "ESP",
+      "year": 2018,
+      "value": 2.39541124478878
+    },
+    {
+      "country": "ESP",
+      "year": 2017,
+      "value": 2.89604207865007
+    },
+    {
+      "country": "ESP",
+      "year": 2016,
+      "value": 2.91515598595787
+    },
+    {
+      "country": "ESP",
+      "year": 2015,
+      "value": 4.06086672473866
+    },
+    {
+      "country": "ESP",
+      "year": 2014,
+      "value": 1.52048593647231
+    },
+    {
+      "country": "ESP",
+      "year": 2013,
+      "value": -1.42732224757626
+    },
+    {
+      "country": "ESP",
+      "year": 2012,
+      "value": -2.86511368637748
+    },
+    {
+      "country": "ESP",
+      "year": 2011,
+      "value": -0.639920636520344
+    },
+    {
+      "country": "ESP",
+      "year": 2010,
+      "value": 0.0941223116369514
+    },
+    {
+      "country": "ESP",
+      "year": 2009,
+      "value": -3.76813306940053
+    },
+    {
+      "country": "ESP",
+      "year": 2008,
+      "value": 0.767165748290694
+    },
+    {
+      "country": "ESP",
+      "year": 2007,
+      "value": 3.53350013165972
+    },
+    {
+      "country": "ESP",
+      "year": 2006,
+      "value": 4.04343515605099
+    },
+    {
+      "country": "ESP",
+      "year": 2005,
+      "value": 3.5512255846125
+    },
+    {
+      "country": "ESP",
+      "year": 2004,
+      "value": 3.1145314799161
+    },
+    {
+      "country": "ESP",
+      "year": 2003,
+      "value": 2.9392895953076
+    },
+    {
+      "country": "ESP",
+      "year": 2002,
+      "value": 2.75545611564098
+    },
+    {
+      "country": "ESP",
+      "year": 2001,
+      "value": 3.91908880808811
+    },
+    {
+      "country": "ESP",
+      "year": 2000,
+      "value": 5.20064125553942
+    },
+    {
+      "country": "ESP",
+      "year": 1999,
+      "value": 4.40886545305924
+    },
+    {
+      "country": "ESP",
+      "year": 1998,
+      "value": 4.30197745333581
+    },
+    {
+      "country": "ESP",
+      "year": 1997,
+      "value": 3.58729972356299
+    },
+    {
+      "country": "ESP",
+      "year": 1996,
+      "value": 2.60741117110229
+    },
+    {
+      "country": "ESP",
+      "year": 1995,
+      "value": 2.75749400293542
+    },
+    {
+      "country": "ESP",
+      "year": 1994,
+      "value": 2.38319537908909
+    },
+    {
+      "country": "ESP",
+      "year": 1993,
+      "value": -1.03149183695307
+    },
+    {
+      "country": "ESP",
+      "year": 1992,
+      "value": 0.929215482921151
+    },
+    {
+      "country": "ESP",
+      "year": 1991,
+      "value": 2.54600049647455
+    },
+    {
+      "country": "ESP",
+      "year": 1990,
+      "value": 3.7813935513235
+    },
+    {
+      "country": "ESP",
+      "year": 1989,
+      "value": 4.82703031299745
+    },
+    {
+      "country": "ESP",
+      "year": 1988,
+      "value": 5.09432412898086
+    },
+    {
+      "country": "ESP",
+      "year": 1987,
+      "value": 5.54712273579352
+    },
+    {
+      "country": "ESP",
+      "year": 1986,
+      "value": 3.25332169179885
+    },
+    {
+      "country": "ESP",
+      "year": 1985,
+      "value": 2.3214357659951
+    },
+    {
+      "country": "ESP",
+      "year": 1984,
+      "value": 1.78468751370853
+    },
+    {
+      "country": "ESP",
+      "year": 1983,
+      "value": 1.77011581051299
+    },
+    {
+      "country": "ESP",
+      "year": 1982,
+      "value": 1.2464617922282
+    },
+    {
+      "country": "ESP",
+      "year": 1981,
+      "value": -0.13246859717357
+    },
+    {
+      "country": "ESP",
+      "year": 1980,
+      "value": 2.20872810257116
+    },
+    {
+      "country": "ESP",
+      "year": 1979,
+      "value": 0.0415465166768456
+    },
+    {
+      "country": "ESP",
+      "year": 1978,
+      "value": 1.46300333315605
+    },
+    {
+      "country": "ESP",
+      "year": 1977,
+      "value": 2.83857436106388
+    },
+    {
+      "country": "ESP",
+      "year": 1976,
+      "value": 3.30379140860018
+    },
+    {
+      "country": "ESP",
+      "year": 1975,
+      "value": 0.542203343297047
+    },
+    {
+      "country": "ESP",
+      "year": 1974,
+      "value": 5.61878564719633
+    },
+    {
+      "country": "ESP",
+      "year": 1973,
+      "value": 7.7884653422601
+    },
+    {
+      "country": "ESP",
+      "year": 1972,
+      "value": 8.14974586367205
+    },
+    {
+      "country": "ESP",
+      "year": 1971,
+      "value": 4.64947364578497
+    },
+    {
+      "country": "ESP",
+      "year": 1970,
+      "value": 4.24497088667341
+    },
+    {
+      "country": "ESP",
+      "year": 1969,
+      "value": 8.90701540575571
+    },
+    {
+      "country": "ESP",
+      "year": 1968,
+      "value": 6.59702019075823
+    },
+    {
+      "country": "FIN",
+      "year": 2025,
+      "value": 0.173444509584499
+    },
+    {
+      "country": "FIN",
+      "year": 2024,
+      "value": 0.374566568538427
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "value": -1.28973484453397
+    },
+    {
+      "country": "FIN",
+      "year": 2022,
+      "value": 0.763041912763526
+    },
+    {
+      "country": "FIN",
+      "year": 2021,
+      "value": 2.67634641498897
+    },
+    {
+      "country": "FIN",
+      "year": 2020,
+      "value": -2.49103605535707
+    },
+    {
+      "country": "FIN",
+      "year": 2019,
+      "value": 1.34973845741737
+    },
+    {
+      "country": "FIN",
+      "year": 2018,
+      "value": 1.19297759742292
+    },
+    {
+      "country": "FIN",
+      "year": 2017,
+      "value": 3.30337003591039
+    },
+    {
+      "country": "FIN",
+      "year": 2016,
+      "value": 2.57193414898754
+    },
+    {
+      "country": "FIN",
+      "year": 2015,
+      "value": 0.466503766322674
+    },
+    {
+      "country": "FIN",
+      "year": 2014,
+      "value": -0.4780684247837
+    },
+    {
+      "country": "FIN",
+      "year": 2013,
+      "value": -0.979741024949618
+    },
+    {
+      "country": "FIN",
+      "year": 2012,
+      "value": -1.52284013040689
+    },
+    {
+      "country": "FIN",
+      "year": 2011,
+      "value": 2.39039455396828
+    },
+    {
+      "country": "FIN",
+      "year": 2010,
+      "value": 3.1682879121621
+    },
+    {
+      "country": "FIN",
+      "year": 2009,
+      "value": -8.07603116552393
+    },
+    {
+      "country": "FIN",
+      "year": 2008,
+      "value": 0.784431235717051
+    },
+    {
+      "country": "FIN",
+      "year": 2007,
+      "value": 5.31280176694145
+    },
+    {
+      "country": "FIN",
+      "year": 2006,
+      "value": 4.01957326515895
+    },
+    {
+      "country": "FIN",
+      "year": 2005,
+      "value": 2.77730918518017
+    },
+    {
+      "country": "FIN",
+      "year": 2004,
+      "value": 4.00537952277651
+    },
+    {
+      "country": "FIN",
+      "year": 2003,
+      "value": 2.01179992738312
+    },
+    {
+      "country": "FIN",
+      "year": 2002,
+      "value": 1.68732644358099
+    },
+    {
+      "country": "FIN",
+      "year": 2001,
+      "value": 2.64026205699308
+    },
+    {
+      "country": "FIN",
+      "year": 2000,
+      "value": 5.75373770498848
+    },
+    {
+      "country": "FIN",
+      "year": 1999,
+      "value": 4.38928070374669
+    },
+    {
+      "country": "FIN",
+      "year": 1998,
+      "value": 5.45427021765444
+    },
+    {
+      "country": "FIN",
+      "year": 1997,
+      "value": 6.39770068404337
+    },
+    {
+      "country": "FIN",
+      "year": 1996,
+      "value": 3.66265716987186
+    },
+    {
+      "country": "FIN",
+      "year": 1995,
+      "value": 4.23436710187066
+    },
+    {
+      "country": "FIN",
+      "year": 1994,
+      "value": 3.96437283726799
+    },
+    {
+      "country": "FIN",
+      "year": 1993,
+      "value": -0.779815061561479
+    },
+    {
+      "country": "FIN",
+      "year": 1992,
+      "value": -3.31137361706595
+    },
+    {
+      "country": "FIN",
+      "year": 1991,
+      "value": -5.88059618513641
+    },
+    {
+      "country": "FIN",
+      "year": 1990,
+      "value": 0.691649917806032
+    },
+    {
+      "country": "FIN",
+      "year": 1989,
+      "value": 5.08392955255206
+    },
+    {
+      "country": "FIN",
+      "year": 1988,
+      "value": 5.23111280719965
+    },
+    {
+      "country": "FIN",
+      "year": 1987,
+      "value": 3.56103297195551
+    },
+    {
+      "country": "FIN",
+      "year": 1986,
+      "value": 2.75509931172768
+    },
+    {
+      "country": "FIN",
+      "year": 1985,
+      "value": 3.54005438717211
+    },
+    {
+      "country": "FIN",
+      "year": 1984,
+      "value": 3.22653291609758
+    },
+    {
+      "country": "FIN",
+      "year": 1983,
+      "value": 3.10384880639285
+    },
+    {
+      "country": "FIN",
+      "year": 1982,
+      "value": 3.08671541654802
+    },
+    {
+      "country": "FIN",
+      "year": 1981,
+      "value": 1.28938426892493
+    },
+    {
+      "country": "FIN",
+      "year": 1980,
+      "value": 5.38904748575388
+    },
+    {
+      "country": "FIN",
+      "year": 1979,
+      "value": 7.12192593764533
+    },
+    {
+      "country": "FIN",
+      "year": 1978,
+      "value": 2.91970756437469
+    },
+    {
+      "country": "FIN",
+      "year": 1977,
+      "value": 0.239510630103453
+    },
+    {
+      "country": "FIN",
+      "year": 1976,
+      "value": 0.344383187103318
+    },
+    {
+      "country": "FIN",
+      "year": 1975,
+      "value": 1.80489795187316
+    },
+    {
+      "country": "FIN",
+      "year": 1974,
+      "value": 3.23653343563224
+    },
+    {
+      "country": "FIN",
+      "year": 1973,
+      "value": 6.98382835563822
+    },
+    {
+      "country": "FIN",
+      "year": 1972,
+      "value": 7.7354848193458
+    },
+    {
+      "country": "FIN",
+      "year": 1971,
+      "value": 2.35692123166586
+    },
+    {
+      "country": "FIN",
+      "year": 1970,
+      "value": 7.47043267144105
+    },
+    {
+      "country": "FIN",
+      "year": 1969,
+      "value": 9.59328847858328
+    },
+    {
+      "country": "FIN",
+      "year": 1968,
+      "value": 2.30328981591643
+    },
+    {
+      "country": "JPN",
+      "year": 2025,
+      "value": 1.19311288444599
+    },
+    {
+      "country": "JPN",
+      "year": 2024,
+      "value": -0.240084236041696
+    },
+    {
+      "country": "JPN",
+      "year": 2023,
+      "value": 0.720785304749811
+    },
+    {
+      "country": "JPN",
+      "year": 2022,
+      "value": 1.33164750653741
+    },
+    {
+      "country": "JPN",
+      "year": 2021,
+      "value": 3.56419531474475
+    },
+    {
+      "country": "JPN",
+      "year": 2020,
+      "value": -4.28327942675573
+    },
+    {
+      "country": "JPN",
+      "year": 2019,
+      "value": -0.308496921143259
+    },
+    {
+      "country": "JPN",
+      "year": 2018,
+      "value": 0.834143845965585
+    },
+    {
+      "country": "JPN",
+      "year": 2017,
+      "value": 1.62345062245441
+    },
+    {
+      "country": "JPN",
+      "year": 2016,
+      "value": 0.704986495111257
+    },
+    {
+      "country": "JPN",
+      "year": 2015,
+      "value": 1.79997735783475
+    },
+    {
+      "country": "JPN",
+      "year": 2014,
+      "value": 0.905915486065865
+    },
+    {
+      "country": "JPN",
+      "year": 2013,
+      "value": 1.99727653399265
+    },
+    {
+      "country": "JPN",
+      "year": 2012,
+      "value": 1.64893452981225
+    },
+    {
+      "country": "JPN",
+      "year": 2011,
+      "value": -0.20035785332982
+    },
+    {
+      "country": "JPN",
+      "year": 2010,
+      "value": 4.13645589222239
+    },
+    {
+      "country": "JPN",
+      "year": 2009,
+      "value": -5.9359411383964
+    },
+    {
+      "country": "JPN",
+      "year": 2008,
+      "value": -1.16662209355141
+    },
+    {
+      "country": "JPN",
+      "year": 2007,
+      "value": 1.72837912865577
+    },
+    {
+      "country": "JPN",
+      "year": 2006,
+      "value": 1.54630843078741
+    },
+    {
+      "country": "JPN",
+      "year": 2005,
+      "value": 1.8482813374834
+    },
+    {
+      "country": "JPN",
+      "year": 2004,
+      "value": 2.11294823723127
+    },
+    {
+      "country": "JPN",
+      "year": 2003,
+      "value": 1.38010935830795
+    },
+    {
+      "country": "JPN",
+      "year": 2002,
+      "value": 0.0849888050363319
+    },
+    {
+      "country": "JPN",
+      "year": 2001,
+      "value": 0.284608556379041
+    },
+    {
+      "country": "JPN",
+      "year": 2000,
+      "value": 2.97832688768516
+    },
+    {
+      "country": "JPN",
+      "year": 1999,
+      "value": -0.347600398675738
+    },
+    {
+      "country": "JPN",
+      "year": 1998,
+      "value": -1.77264091037956
+    },
+    {
+      "country": "JPN",
+      "year": 1997,
+      "value": 1.36297109407448
+    },
+    {
+      "country": "JPN",
+      "year": 1996,
+      "value": 3.07546731409349
+    },
+    {
+      "country": "JPN",
+      "year": 1995,
+      "value": 2.34205546196849
+    },
+    {
+      "country": "JPN",
+      "year": 1994,
+      "value": 0.99306636322622
+    },
+    {
+      "country": "JPN",
+      "year": 1993,
+      "value": -0.517919847117952
+    },
+    {
+      "country": "JPN",
+      "year": 1992,
+      "value": 0.848069581218368
+    },
+    {
+      "country": "JPN",
+      "year": 1991,
+      "value": 3.41749676183089
+    },
+    {
+      "country": "JPN",
+      "year": 1990,
+      "value": 4.89271306574565
+    },
+    {
+      "country": "JPN",
+      "year": 1989,
+      "value": 4.85803768615389
+    },
+    {
+      "country": "JPN",
+      "year": 1988,
+      "value": 6.78502010955764
+    },
+    {
+      "country": "JPN",
+      "year": 1987,
+      "value": 4.73066586040017
+    },
+    {
+      "country": "JPN",
+      "year": 1986,
+      "value": 3.32652561623384
+    },
+    {
+      "country": "JPN",
+      "year": 1985,
+      "value": 5.23338094687848
+    },
+    {
+      "country": "JPN",
+      "year": 1984,
+      "value": 4.50199481622435
+    },
+    {
+      "country": "JPN",
+      "year": 1983,
+      "value": 3.52304498510377
+    },
+    {
+      "country": "JPN",
+      "year": 1982,
+      "value": 3.31245673740017
+    },
+    {
+      "country": "JPN",
+      "year": 1981,
+      "value": 4.20933646523171
+    },
+    {
+      "country": "JPN",
+      "year": 1980,
+      "value": 2.81759120738283
+    },
+    {
+      "country": "JPN",
+      "year": 1979,
+      "value": 5.4840418324284
+    },
+    {
+      "country": "JPN",
+      "year": 1978,
+      "value": 5.27194150317187
+    },
+    {
+      "country": "JPN",
+      "year": 1977,
+      "value": 4.39033795009327
+    },
+    {
+      "country": "JPN",
+      "year": 1976,
+      "value": 3.97498409113672
+    },
+    {
+      "country": "JPN",
+      "year": 1975,
+      "value": 3.09157591623077
+    },
+    {
+      "country": "JPN",
+      "year": 1974,
+      "value": -1.22523982750916
+    },
+    {
+      "country": "JPN",
+      "year": 1973,
+      "value": 8.03259997458245
+    },
+    {
+      "country": "JPN",
+      "year": 1972,
+      "value": 8.41354725497627
+    },
+    {
+      "country": "JPN",
+      "year": 1971,
+      "value": 4.69899204214205
+    },
+    {
+      "country": "JPN",
+      "year": 1970,
+      "value": 0.399050611065093
+    },
+    {
+      "country": "JPN",
+      "year": 1969,
+      "value": 12.4778945420024
+    },
+    {
+      "country": "JPN",
+      "year": 1968,
+      "value": 12.8824681707163
+    },
+    {
+      "country": "SWE",
+      "year": 2025,
+      "value": 1.54316373266217
+    },
+    {
+      "country": "SWE",
+      "year": 2024,
+      "value": 1.01779633304398
+    },
+    {
+      "country": "SWE",
+      "year": 2023,
+      "value": -0.204061304891439
+    },
+    {
+      "country": "SWE",
+      "year": 2022,
+      "value": 1.25543620445816
+    },
+    {
+      "country": "SWE",
+      "year": 2021,
+      "value": 5.2258643028773
+    },
+    {
+      "country": "SWE",
+      "year": 2020,
+      "value": -1.93379704032216
+    },
+    {
+      "country": "SWE",
+      "year": 2019,
+      "value": 2.60823012869524
+    },
+    {
+      "country": "SWE",
+      "year": 2018,
+      "value": 1.7702553546772
+    },
+    {
+      "country": "SWE",
+      "year": 2017,
+      "value": 1.88282184966646
+    },
+    {
+      "country": "SWE",
+      "year": 2016,
+      "value": 2.13117914731151
+    },
+    {
+      "country": "SWE",
+      "year": 2015,
+      "value": 4.38824673608589
+    },
+    {
+      "country": "SWE",
+      "year": 2014,
+      "value": 2.29577238758284
+    },
+    {
+      "country": "SWE",
+      "year": 2013,
+      "value": 1.13766671801426
+    },
+    {
+      "country": "SWE",
+      "year": 2012,
+      "value": -0.414397702454409
+    },
+    {
+      "country": "SWE",
+      "year": 2011,
+      "value": 3.16388567406926
+    },
+    {
+      "country": "SWE",
+      "year": 2010,
+      "value": 5.75076477579255
+    },
+    {
+      "country": "SWE",
+      "year": 2009,
+      "value": -4.25561384207619
+    },
+    {
+      "country": "SWE",
+      "year": 2008,
+      "value": -0.923113250067971
+    },
+    {
+      "country": "SWE",
+      "year": 2007,
+      "value": 3.22486814096095
+    },
+    {
+      "country": "SWE",
+      "year": 2006,
+      "value": 4.67607488877992
+    },
+    {
+      "country": "SWE",
+      "year": 2005,
+      "value": 2.79313782840156
+    },
+    {
+      "country": "SWE",
+      "year": 2004,
+      "value": 4.17958419343711
+    },
+    {
+      "country": "SWE",
+      "year": 2003,
+      "value": 1.88102769675844
+    },
+    {
+      "country": "SWE",
+      "year": 2002,
+      "value": 2.27772867861897
+    },
+    {
+      "country": "SWE",
+      "year": 2001,
+      "value": 1.36080642694121
+    },
+    {
+      "country": "SWE",
+      "year": 2000,
+      "value": 4.63112136551369
+    },
+    {
+      "country": "SWE",
+      "year": 1999,
+      "value": 4.20111929805536
+    },
+    {
+      "country": "SWE",
+      "year": 1998,
+      "value": 4.24583179417877
+    },
+    {
+      "country": "SWE",
+      "year": 1997,
+      "value": 3.06499186399252
+    },
+    {
+      "country": "SWE",
+      "year": 1996,
+      "value": 1.70471985374236
+    },
+    {
+      "country": "SWE",
+      "year": 1995,
+      "value": 4.09438992772475
+    },
+    {
+      "country": "SWE",
+      "year": 1994,
+      "value": 4.01576585901515
+    },
+    {
+      "country": "SWE",
+      "year": 1993,
+      "value": -2.06561636908388
+    },
+    {
+      "country": "SWE",
+      "year": 1992,
+      "value": -1.15859275987265
+    },
+    {
+      "country": "SWE",
+      "year": 1991,
+      "value": -1.14597485051154
+    },
+    {
+      "country": "SWE",
+      "year": 1990,
+      "value": 0.754674765275468
+    },
+    {
+      "country": "SWE",
+      "year": 1989,
+      "value": 2.65480690949124
+    },
+    {
+      "country": "SWE",
+      "year": 1988,
+      "value": 2.55903868133913
+    },
+    {
+      "country": "SWE",
+      "year": 1987,
+      "value": 3.35384296895474
+    },
+    {
+      "country": "SWE",
+      "year": 1986,
+      "value": 2.69132318957357
+    },
+    {
+      "country": "SWE",
+      "year": 1985,
+      "value": 2.16037374917175
+    },
+    {
+      "country": "SWE",
+      "year": 1984,
+      "value": 4.22953525809793
+    },
+    {
+      "country": "SWE",
+      "year": 1983,
+      "value": 1.90063868064665
+    },
+    {
+      "country": "SWE",
+      "year": 1982,
+      "value": 1.24866467425022
+    },
+    {
+      "country": "SWE",
+      "year": 1981,
+      "value": 0.454830427902976
+    },
+    {
+      "country": "SWE",
+      "year": 1980,
+      "value": 1.69997145285421
+    },
+    {
+      "country": "SWE",
+      "year": 1979,
+      "value": 3.84000348607525
+    },
+    {
+      "country": "SWE",
+      "year": 1978,
+      "value": 1.75154803918647
+    },
+    {
+      "country": "SWE",
+      "year": 1977,
+      "value": -1.59625857600648
+    },
+    {
+      "country": "SWE",
+      "year": 1976,
+      "value": 1.05810489091265
+    },
+    {
+      "country": "SWE",
+      "year": 1975,
+      "value": 2.55286265850103
+    },
+    {
+      "country": "SWE",
+      "year": 1974,
+      "value": 3.19819561873223
+    },
+    {
+      "country": "SWE",
+      "year": 1973,
+      "value": 3.96798115589563
+    },
+    {
+      "country": "SWE",
+      "year": 1972,
+      "value": 2.28873878707626
+    },
+    {
+      "country": "SWE",
+      "year": 1971,
+      "value": 0.944646218021433
+    },
+    {
+      "country": "SWE",
+      "year": 1970,
+      "value": 6.47367396370416
+    },
+    {
+      "country": "SWE",
+      "year": 1969,
+      "value": 5.00907518225404
+    },
+    {
+      "country": "SWE",
+      "year": 1968,
+      "value": 3.638505638623
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "value": 2.16138195623856
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 2.79318715363841
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "value": 2.93436322440155
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "value": 2.52421385073222
+    },
+    {
+      "country": "USA",
+      "year": 2021,
+      "value": 6.15202247867526
+    },
+    {
+      "country": "USA",
+      "year": 2020,
+      "value": -2.081375977796
+    },
+    {
+      "country": "USA",
+      "year": 2019,
+      "value": 2.58382533052225
+    },
+    {
+      "country": "USA",
+      "year": 2018,
+      "value": 2.96650506701943
+    },
+    {
+      "country": "USA",
+      "year": 2017,
+      "value": 2.45762230126449
+    },
+    {
+      "country": "USA",
+      "year": 2016,
+      "value": 1.81945147909089
+    },
+    {
+      "country": "USA",
+      "year": 2015,
+      "value": 2.94555045227337
+    },
+    {
+      "country": "USA",
+      "year": 2014,
+      "value": 2.52381981757846
+    },
+    {
+      "country": "USA",
+      "year": 2013,
+      "value": 2.11783009443471
+    },
+    {
+      "country": "USA",
+      "year": 2012,
+      "value": 2.28911339009767
+    },
+    {
+      "country": "USA",
+      "year": 2011,
+      "value": 1.56440685205419
+    },
+    {
+      "country": "USA",
+      "year": 2010,
+      "value": 2.69519258673525
+    },
+    {
+      "country": "USA",
+      "year": 2009,
+      "value": -2.5765002366652
+    },
+    {
+      "country": "USA",
+      "year": 2008,
+      "value": 0.113587247501258
+    },
+    {
+      "country": "USA",
+      "year": 2007,
+      "value": 2.0038583039496
+    },
+    {
+      "country": "USA",
+      "year": 2006,
+      "value": 2.78453963674239
+    },
+    {
+      "country": "USA",
+      "year": 2005,
+      "value": 3.48354993710312
+    },
+    {
+      "country": "USA",
+      "year": 2004,
+      "value": 3.84777169267127
+    },
+    {
+      "country": "USA",
+      "year": 2003,
+      "value": 2.79560596378604
+    },
+    {
+      "country": "USA",
+      "year": 2002,
+      "value": 1.70044733078285
+    },
+    {
+      "country": "USA",
+      "year": 2001,
+      "value": 0.955538337599847
+    },
+    {
+      "country": "USA",
+      "year": 2000,
+      "value": 4.07758575997799
+    },
+    {
+      "country": "USA",
+      "year": 1999,
+      "value": 4.78842504836746
+    },
+    {
+      "country": "USA",
+      "year": 1998,
+      "value": 4.48313335499124
+    },
+    {
+      "country": "USA",
+      "year": 1997,
+      "value": 4.44712793442667
+    },
+    {
+      "country": "USA",
+      "year": 1996,
+      "value": 3.77277269047364
+    },
+    {
+      "country": "USA",
+      "year": 1995,
+      "value": 2.68443073970295
+    },
+    {
+      "country": "USA",
+      "year": 1994,
+      "value": 4.02902272637739
+    },
+    {
+      "country": "USA",
+      "year": 1993,
+      "value": 2.75179586314481
+    },
+    {
+      "country": "USA",
+      "year": 1992,
+      "value": 3.52249717254271
+    },
+    {
+      "country": "USA",
+      "year": 1991,
+      "value": -0.108312873733027
+    },
+    {
+      "country": "USA",
+      "year": 1990,
+      "value": 1.88596557755378
+    },
+    {
+      "country": "USA",
+      "year": 1989,
+      "value": 3.67223784138015
+    },
+    {
+      "country": "USA",
+      "year": 1988,
+      "value": 4.17698239478443
+    },
+    {
+      "country": "USA",
+      "year": 1987,
+      "value": 3.45462966441372
+    },
+    {
+      "country": "USA",
+      "year": 1986,
+      "value": 3.46265504522061
+    },
+    {
+      "country": "USA",
+      "year": 1985,
+      "value": 4.16957535422245
+    },
+    {
+      "country": "USA",
+      "year": 1984,
+      "value": 7.2364531665454
+    },
+    {
+      "country": "USA",
+      "year": 1983,
+      "value": 4.58379096944093
+    },
+    {
+      "country": "USA",
+      "year": 1982,
+      "value": -1.80301377321203
+    },
+    {
+      "country": "USA",
+      "year": 1981,
+      "value": 2.53770127042986
+    },
+    {
+      "country": "USA",
+      "year": 1980,
+      "value": -0.256775739391401
+    },
+    {
+      "country": "USA",
+      "year": 1979,
+      "value": 3.16598822512103
+    },
+    {
+      "country": "USA",
+      "year": 1978,
+      "value": 5.53520648057204
+    },
+    {
+      "country": "USA",
+      "year": 1977,
+      "value": 4.62418650079432
+    },
+    {
+      "country": "USA",
+      "year": 1976,
+      "value": 5.38803390614694
+    },
+    {
+      "country": "USA",
+      "year": 1975,
+      "value": -0.205619191208058
+    },
+    {
+      "country": "USA",
+      "year": 1974,
+      "value": -0.540550190362552
+    },
+    {
+      "country": "USA",
+      "year": 1973,
+      "value": 5.64567975951033
+    },
+    {
+      "country": "USA",
+      "year": 1972,
+      "value": 5.25550197771585
+    },
+    {
+      "country": "USA",
+      "year": 1971,
+      "value": 3.29272243899894
+    },
+    {
+      "country": "USA",
+      "year": 1970,
+      "value": 0.216606498143278
+    },
+    {
+      "country": "USA",
+      "year": 1969,
+      "value": 3.09999999656958
+    },
+    {
+      "country": "USA",
+      "year": 1968,
+      "value": 4.80000000278329
+    }
+  ]
+}
