@@ -1,5 +1,5 @@
 import http from 'node:http';
-import {fileURLToPath,pathToFileURL} from 'node:url';
+import {fileURLToPath} from 'node:url';
 import {dirname,resolve} from 'node:path';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {randomBytes,timingSafeEqual} from 'node:crypto';
@@ -51,7 +51,7 @@ export async function createApplication(config,{application=worker}={}){
  async function close(){clearInterval(timer);clearTimeout(startTimer);server.closeIdleConnections();await new Promise((resolve,reject)=>server.close(e=>e?reject(e):resolve()));await Promise.allSettled([...pending,...(refreshInFlight?[refreshInFlight]:[])]);}
  return {server,bucket,refresh,startSchedule,close};
 }
-if(process.argv[1]&&pathToFileURL(resolve(process.argv[1])).href===import.meta.url){
+export async function startApplication(){
  const config=loadConfig(),app=await createApplication(config);
  await new Promise((resolve,reject)=>{app.server.once('error',reject);app.server.listen(config.port,config.host,resolve);});
  console.log(JSON.stringify({event:'listening',host:config.host,port:config.port,dataDir:config.dataDir,refreshHours:config.hours}));app.startSchedule();process.send?.('ready');

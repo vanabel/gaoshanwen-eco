@@ -1,5 +1,5 @@
 import {spawnSync} from 'node:child_process';
-import {mkdir,copyFile,cp,readFile} from 'node:fs/promises';
+import {mkdir,copyFile,cp,chmod} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {root,loadConfig,getAdminToken} from '../server/index.mjs';
 
@@ -19,6 +19,7 @@ async function backup(){
 async function prepare(){
  if(Number(process.versions.node.split('.')[0])<22)throw Error('Node.js 22 or newer is required');
  try{await copyFile(resolve(root,'.env.example'),resolve(root,'.env'),(await import('node:fs')).constants.COPYFILE_EXCL);}catch(e){if(e.code!=='EEXIST')throw e;}
+ await chmod(resolve(root,'.env'),0o600);
  // --ignore-scripts prevents the package's install lifecycle from recursing.
  pnpm(['install','--ignore-scripts','--frozen-lockfile']);
  run(process.execPath,['scripts/compile.mjs']);
