@@ -1,4 +1,6 @@
 import http from 'node:http';
+import {readFileSync} from 'node:fs';
+import {parseEnv} from 'node:util';
 import {fileURLToPath} from 'node:url';
 import {dirname,resolve} from 'node:path';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
@@ -7,17 +9,20 @@ import worker from '../worker/index.js';
 import {FileBucket,seedArchive} from './storage.mjs';
 
 export const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
-export function loadConfig(){
- try{process.loadEnvFile(resolve(root,'.env'));}catch(e){if(e.code!=='ENOENT')throw e;}
- const port=Number(process.env.PORT||19927),hours=Number(process.env.REFRESH_HOURS||6);
+export function loadConfig({env=process.env,envFile=resolve(root,'.env')}={}){
+ let file={};try{file=parseEnv(readFileSync(envFile,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
+ // NAS config takes precedence over environment retained by the PM2 daemon.
+ const settings={...env,...file};
+ const port=Number(settings.PORT||19886),hours=Number(settings.REFRESH_HOURS||6);
  if(!Number.isInteger(port)||port<1||port>65535||!Number.isFinite(hours)||hours<0)throw Error('invalid_server_configuration');
- const user=process.env.BASIC_AUTH_USER||'',password=process.env.BASIC_AUTH_PASSWORD||'';
+ const user=settings.BASIC_AUTH_USER||'',password=settings.BASIC_AUTH_PASSWORD||'';
  if(!!user!==!!password)throw Error('both_basic_auth_fields_required');
- return {host:process.env.HOST||'0.0.0.0',port,hours,dataDir:resolve(root,process.env.DATA_DIR||'var/archive'),stateDir:resolve(root,process.env.STATE_DIR||'var'),user,password};
+ let publicOrigin='';if(settings.PUBLIC_URL){const u=new URL(settings.PUBLIC_URL);if(!['http:','https:'].includes(u.protocol)||u.username||u.password||u.pathname!=='/'||u.search||u.hash)throw Error('PUBLIC_URL_must_be_an_origin');publicOrigin=u.origin;}
+ return {host:settings.HOST||'0.0.0.0',port,hours,dataDir:resolve(root,settings.DATA_DIR||'var/archive'),stateDir:resolve(root,settings.STATE_DIR||'var'),user,password,publicOrigin,adminToken:settings.ADMIN_TOKEN||''};
 }
 function equal(a,b){const aa=Buffer.from(a),bb=Buffer.from(b);return aa.length===bb.length&&timingSafeEqual(aa,bb);}
 export async function getAdminToken(config){
- if(process.env.ADMIN_TOKEN)return process.env.ADMIN_TOKEN;
+ if(config.adminToken)return config.adminToken;
  await mkdir(config.stateDir,{recursive:true,mode:0o700});const path=resolve(config.stateDir,'admin-token');
  try{return (await readFile(path,'utf8')).trim();}catch(e){if(e.code!=='ENOENT')throw e;}
  const token=randomBytes(32).toString('hex');try{await writeFile(path,token+'\n',{flag:'wx',mode:0o600});return token;}catch(e){if(e.code==='EEXIST')return (await readFile(path,'utf8')).trim();throw e;}
@@ -32,7 +37,12 @@ export async function createApplication(config,{application=worker}={}){
  const server=http.createServer(async(req,res)=>{
   try{
    if(config.user){const expected='Basic '+Buffer.from(config.user+':'+config.password).toString('base64');if(!equal(req.headers.authorization||'',expected)){res.writeHead(401,{'WWW-Authenticate':'Basic realm="Economy Observatory", charset="UTF-8"'});return res.end('Authentication required');}}
-   const url=new URL(req.url,'http://'+(req.headers.host||'localhost:'+config.port));
+   const host=req.headers.host||'localhost:'+config.port;
+   const forwardedHost=String(req.headers['x-forwarded-host']||'').split(',')[0].trim();
+   const publicHost=config.publicOrigin?new URL(config.publicOrigin).host:'';
+   // Only the explicitly configured public origin is trusted, never arbitrary forwarded protocols.
+   const base=config.publicOrigin&&(host===publicHost||forwardedHost===publicHost||req.headers.origin===config.publicOrigin)?config.publicOrigin:'http://'+host;
+   const url=new URL(req.url,base);
    if(url.pathname==='/api/runtime'&&req.method==='GET'){
     const state=await bucket.get('runtime/refresh.json');res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});return res.end(JSON.stringify({runtime:'node',storage:'filesystem',backgroundRefreshHours:config.hours,lastRefresh:state?await state.json():null}));
    }

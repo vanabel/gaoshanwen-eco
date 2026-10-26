@@ -2,7 +2,7 @@
 
 直接运行，无需 Docker、Cloudflare 账户、R2 或数据库。Node.js 22+，pnpm；PM2 6.0.14 作为项目依赖固定安装，沿用当前用户的 PM2 daemon。
 
-默认目录：`/volume1/web/nodejs/economy-observatory`。默认端口：19927。
+默认目录：`/volume1/web/nodejs/economy-observatory`。默认端口：19886。
 
 ```sh
 cd /volume1/web/nodejs/economy-observatory
@@ -25,7 +25,7 @@ pnpm run refresh
 
 ## 配置与存档
 
-安装时仅在不存在时从 `.env.example` 创建 `.env`。配置调整后运行 `pnpm run pm2:restart`。默认监听 NAS 的19927端口，不创建外网端口映射或反向代理。若需要全站登录，可配置 `BASIC_AUTH_USER` 与 `BASIC_AUTH_PASSWORD`；外网使用时在已有反向代理上配置 HTTPS。
+安装时仅在不存在时从 `.env.example` 创建 `.env`。配置调整后运行 `pnpm run pm2:restart`。默认监听 NAS 的19886端口，不创建外网端口映射或反向代理。若需要全站登录，可配置 `BASIC_AUTH_USER` 与 `BASIC_AUTH_PASSWORD`；外网使用时在已有反向代理上配置 HTTPS。
 
 - `var/archive/annual/*.json`：2012年起的年度存档。
 - `var/archive/latest.json`：最新官方综合运行数据。
@@ -47,3 +47,7 @@ pnpm run refresh
 ## 验证
 
 `pnpm run test:node` 覆盖文件持久化、重启后读取、种子保留、管理接口与跨来源请求保护、可选全站登录，以及后台任务合并。安装和更新还会检查原有23幅图、年度报告、观点、数据解析和来源中断时的回退。
+
+## 域名反向代理
+
+将 `https://gsw.vanabel.cn` 代理到 `http://192.168.8.38:19886`，`.env` 中配置 `PUBLIC_URL=https://gsw.vanabel.cn`。建议保留 Host 或传递 X-Forwarded-Host。本站接口、下载和章节链接均使用相对路径，不需要开放通配 CORS。来源校验仅认可配置的公开域名和同源内网访问，管理令牌要求保留。`.env` 优先于 PM2 保留的旧环境变量，因此改端口后普通 PM2 重启也能生效。域名、证书和代理规则由用户自行设置。
